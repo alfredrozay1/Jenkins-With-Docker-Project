@@ -7,7 +7,7 @@ pipeline {
 	stages {
 		stage("GitHub Checkout") {
 			steps {
-				git branch: 'main', credentialsId: 'GithubID', url: 'https://github.com/alfredrozay1/Jenkins-With-Docker-Project.git'
+				git branch: 'main', url: 'https://github.com/alfredrozay1/Jenkins-With-Docker-Project.git'
 			}
 		}
 
